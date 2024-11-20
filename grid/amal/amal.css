@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .sky {
+    background: url('https://user-images.githubusercontent.com/90318905/172849565-db9220a8-7e47-4ed2-a018-19ab02802fca.jpg');
+    height: 60vh;
+    width: 500%;
+    animation: sky 60s linear infinite;
+
+  }
+  
+  @keyframes sky {
+    100% {
+      transform: translateX(-1000px);
+    }
+  }
+  
+  .building {
+    display: block;
+    background: url('https://codeshack.io/web/img/examples/css3-pixelated-background-scroll.png');
+    height: 355px;
+    width: 1000%;
+    position: absolute;
+    bottom: 250px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    animation: building 30s linear infinite;
+  }
+  
+  @keyframes building {
+    100% {
+      transform: translateX(-1600px);
+    }
+  }
+  
+  .road {
+    display: block;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbexiO8LUQiqEzO1tKfJanHz5Rrk5a19sVKlSaaQPYcV93K0FR2vq4w7pwrLEGcW_pXZ8&usqp=CAU');
+    height: 280px;
+    width: 500%;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    animation: road 5s linear infinite;
+  }
+  
+  @keyframes road {
+    100% {
+      transform: translateX(-3600px);
+    }
+  }
+  
+  .truck {
+   
+    position: absolute;
+    width: 350px;
+    left: 50%;
+    bottom: 75px;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .truck img {
+    width: 100%;
+    animation: truck 1s linear infinite;
+  }
+  
+  @keyframes truck {
+    0% {
+      transform: translateY(1px);
+    }
+    50% {
+      transform: translateY(8px);
+    }
+    100% {
+      transform: translateY(1px);
+    }
+  }
+  
+  .wheel {
+    left: 50%;
+    bottom: 185px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .wheel img {
+    width: 65px;
+    height: 65px;
+    animation: wheel .8s linear infinite;
+  }
+  
+  @keyframes wheel {
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  
+  .first-wheel {
+    left: -140px;
+    position: absolute;
+    border-radius: 60%;
+    
+  }
+  
+  .second-wheel {
+    left: 68px;
+    position: absolute;
+    cursor: none;
+  }
+  

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+
+box-sizing: border-box;
+}
+body{
+    display: flex;
+ 
+}
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex; 
+}
+.house{
+    background-image: url('./icons/house.jpg');
+    width: 450px;
+    height: 700vh;
+    background-size: 100%;
+   
+    animation: house 9s linear infinite;
+    right: 0;
+
+    left: 0;
+    z-index: 999;
+}
+@keyframes house{
+    100%{
+        transform: translateY(-2000px);
+    }
+}
+.building{
+    background-image: url('./icons/build.jpg');
+    width: 450px;
+    height: 700vh;
+    background-size: 100%;
+    animation: building 9s linear infinite;
+    right: 0;
+
+    left: 0;
+    z-index: 999;
+}
+@keyframes building{
+    100%{
+        transform: translateY(-2000px);
+    }
+}
+.home{
+    background-image: url('./icons/homes.jpg');
+    width: 450px;
+    height: 100vh;
+    background-size: 100%;
+}
+.high{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+   animation: high 7s linear infinite;
+    width: 400px;
+    height: 300vh;
+    background-image: url('https://media.istockphoto.com/id/1156282684/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B0%D1%81%D1%84%D0%B0%D0%BB%D1%8C%D1%82%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B0-%D0%B1%D0%B5%D1%81%D1%88%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F-%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B0-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.jpg?s=612x612&w=0&k=20&c=a-pM85kn-jJBYfFXBbaMQ7yeVh-0tQIpMbhDJhJyrvE=');
+}
+@keyframes high{
+    100%{
+        transform: translateY(-1500px);
+    }
+}
+.x-car{
+    top: 70%;
+    width: 300px ;
+    height: 200px;
+    position: absolute;
+   margin-left: -10%;
+
+animation: x-car 4s linear infinite;
+}
+@keyframes x-car{
+    0%{
+        transform: translateX(15px);
+    }
+    30%{
+        transform: translateX(22px);
+    }
+    60%{
+        transform: translateY(84px);
+    }
+    80%{
+        transform: translateY(39px);
+    }
+    100%{
+        transform: translateX(14px);
+    }
+}
+.car{
+   
+    margin-left: -170px;
+    width: 200px;
+    height: 210px;
+}
+.super{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    margin-left: -8%;
+ 
+    top: 30%;
+    animation: super 6s linear infinite;
+}
+@keyframes super{
+    0%{
+        transform: translateX(15px);
+    }
+    30%{
+        transform: translateX(22px);
+    }
+    60%{
+        transform: translateY(94px);
+    }
+    80%{
+        transform: translateY(49px);
+    }
+    100%{
+        transform: translateX(17px);
+    }
+}
+.supra{
+   
+    left: 10%;
+    width: 110px;
+    height: 210px;
+    border: 2px solid red;
+}
+.ambulans{
+    width: 200px;
+    height: 250px;
+    right: 16%;
+    position: absolute;
+}
+.machine{
+    width: 150px;
+    height: 300px;
+}
+.red-car{
+    width: 200px;
+    height: 250px;
+    right: 28%;
+    position: absolute;
+}
+.red{
+    width: 150px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

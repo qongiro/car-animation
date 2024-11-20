@@ -1,0 +1,271 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.sky{
+  width: 400%;
+  height: 78vh;
+  background:url('./icons/sky.png');
+background-size: 3500px 1800px;
+ position: absolute;
+  animation: sky 60s linear infinite;
+}
+@keyframes sky {
+  100% {
+    transform: translateX(-1300px);
+  }
+}
+.city{
+  background: url('./icons/citi.png');
+  width: 1000%;
+  height: 30vh;
+  background-size: 450px 405px;
+  position: absolute;
+  bottom: 240px;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  animation: city 30s linear infinite;
+}
+
+@keyframes city {
+  100% {
+    transform: translateX(-1600px);
+  }
+}
+ .fly{
+  width: -100px;
+  height: 500px;
+  position: absolute;
+  margin-top: 150px;
+  animation: fly 14s linear infinite;
+  left: 150px;
+ } 
+ @keyframes fly{
+  100%{
+    transform: translate(2000px);
+  }
+
+  
+ }
+
+ .plane{
+  margin-top: 150px;
+  width: 150px;
+  height: 100px;
+  
+ }
+ 
+ 
+
+.road {
+  width: 300%;
+  height: 250px;
+  position: absolute;
+
+  bottom: 0;
+  position: absolute;
+}
+.street{
+  width: 100%;
+  height: 270px;
+  bottom: 0;
+ animation: street 5s linear infinite;
+}
+  
+
+@keyframes street {
+  100% {
+    transform: translate(-3600px);
+  }
+} 
+.jeep{
+  width: 370px;
+  height: 200px;
+
+  position: absolute;
+  bottom: 35px;
+  animation: jeep 15s linear infinite;
+}
+@keyframes jeep{
+  
+  100%{
+    transform: translate(3600px);
+  }
+}
+.pro{
+  left: -170px;
+  width: 370px;
+  height: 270px;
+  animation: pro 1.9s linear infinite;
+}
+@keyframes pro {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(2px);
+  }
+}
+.wheel{
+  width: 70px;
+  height: 70px;
+  bottom: -30px;
+  position: absolute;
+  left: 255px;
+  animation: wheels 0.8s linear infinite;
+}
+.wheels{
+  width: 70px;
+  height: 70px;
+  bottom: -30px;
+  position: absolute;
+  left: 35px;
+  animation: wheels 0.8s linear infinite;
+}
+@keyframes wheels{
+  100%{
+    transform: rotate(720deg);
+  }
+}
+@keyframes wheel{
+  100%{
+    transform: rotate(720deg);
+  }
+}
+.super{
+  width: 370px;
+  height: 200px;
+  position: absolute;
+  bottom: 60px;
+  left: -230px;
+  animation: super 6s linear infinite;
+}
+@keyframes super{
+  100%{
+    transform: translate(3000px);
+  }
+}
+
+.cars{
+ 
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  animation: cars 1.5s linear infinite;
+}
+@keyframes cars {
+  0% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(4px);
+  }
+}
+.ball{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 297px;
+  bottom: 40px;
+  animation: ball 0.7s linear infinite;
+}
+.balls{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+left: 53px;
+bottom: 40px;
+animation: ball 0.7s linear infinite;
+}
+@keyframes ball{
+  100%{
+    transform: rotate(720deg);
+  }
+}
+.car{
+  width: 370px;
+  height: 180px;
+ 
+ right: -270px;
+ bottom: 40px;
+ position: absolute;
+ animation: car 3.9s linear infinite;
+}
+@keyframes car{
+  100%{
+    transform: translate(-3600px);
+  }
+}
+
+.truck{
+  width: 390px;
+  height: 140px;
+  animation: truck 1.3s linear infinite;
+}
+@keyframes truck {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(2px);
+  }
+}
+.tired{
+  width: 60px;
+  height: 60px;
+  right: 20px;
+  position: absolute;
+  bottom: 25px;
+  animation: tired 0.2s linear infinite;
+}
+.tire{
+  width: 60px;
+  height: 60px;
+  right: 259px;
+  position: absolute;
+  bottom: 25px;
+  animation: tire 0.2s linear infinite;
+}
+@keyframes tired{
+  100%{
+    transform: rotate(-720deg);
+  }
+}
+@keyframes tire{
+  100%{
+    transform: rotate(-720deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
